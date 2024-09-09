@@ -26,6 +26,21 @@ let lightOff = false;
 
 console.log(lightOn == lightOff); // Falso
 
-let nombreCompleto = primerNombre + espacio + apellido; // concatenación, fusionando dos cadenas juntas.
-console.log(nombreCompleto);
+// Declarar diferentes variables de diferentes tipos de datos
+let espacio = " ";
+let primerNombre = "Asabeneh";
+let apellido_1 = "Yetayeh";
+let apellido_2 = "hubolt"
+let pais = "Finland";
+let ciudad = "Helsinki";
+let idioma = "JavaScript";
+let trabajo = "teacher";
+let edad = 250;
+// ahora que ya estan declaradas ya podemos poner lo que queramos
+
+let nombreCompleto = primerNombre + espacio + apellido_1 + espacio + apellido_2;
+let datosPersonaUno =
+    nombreCompleto + ". Yo tengo " + edad + ". Vivo en" + pais; // Adición de cadena ES5
+
+console.log(datosPersonaUno);
 
