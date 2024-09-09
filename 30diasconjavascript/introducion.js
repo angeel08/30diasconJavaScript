@@ -3,7 +3,7 @@ console.log("Welcome to 30DaysOfJavaScript");
 let randomNum = Math.random(); //  0 a 0.999
 let numBtnZeroAndTen = randomNum * 11;
 
-/*console.log(numBtnZeroAndTen); // esto da: min 0 y max 10.99*/
+console.log(numBtnZeroAndTen); // esto da: min 0 y max 10.99        /* piensa el mismo número, pero uno piensa con decimales y otro piensa sin decimales */
 
 let randomNumRoundToFloor = Math.floor(numBtnZeroAndTen);
 console.log(randomNumRoundToFloor); // esto da entre 0 y 10
