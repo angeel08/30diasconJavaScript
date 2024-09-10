@@ -27,6 +27,7 @@ let lightOff = false;
 console.log(lightOn == lightOff); // Falso
 
 // Declarar diferentes variables de diferentes tipos de datos
+
 let espacio = " ";
 let primerNombre = "Asabeneh";
 let apellido_1 = "Yetayeh";
@@ -36,11 +37,24 @@ let ciudad = "Helsinki";
 let idioma = "JavaScript";
 let trabajo = "teacher";
 let edad = 250;
-// ahora que ya estan declaradas ya podemos poner lo que queramos
+
+// ahora que ya estan declaradas, ya podemos poner lo que queramos
+
+// 1º manera
 
 let nombreCompleto = primerNombre + espacio + apellido_1 + espacio + apellido_2;
-let datosPersonaUno =
-    nombreCompleto + ". Yo tengo " + edad + ". Vivo en" + pais; // Adición de cadena ES5
+let datosPersonaUno = nombreCompleto + ". Yo tengo " + edad + ". Vivo en" + espacio + pais; // Adición de cadena ES5.                 ejemplo de cadena
 
 console.log(datosPersonaUno);
+
+// Ya tenemos las variables declaradas, por eso no hace falta declararlas otra vez.
+
+// 2º manera
+
+let personaInfoDos = `Soy ${nombreCompleto}. Tengo ${edad} años. Vivo en ${pais}.`; //ES6 - Método de interpolación de cadenas
+let personaInfoTres = `Soy ${nombreCompleto}. Vivo en ${ciudad}, ${pais}. Soy una ${trabajo}. Enseño ${idioma}.`;
+console.log(personaInfoDos);
+console.log(personaInfoTres);
+
+// Es lo mismo pero yo prefirero ponerlo de la 2 forma para poder, y tampoco es tan dificil de poner (con una ${}).
 
