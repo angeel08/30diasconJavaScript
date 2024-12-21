@@ -29,20 +29,20 @@ console.log(lightOn == lightOff); // Falso
 // Declarar diferentes variables de diferentes tipos de datos
 
 let espacio = " ";
-let primerNombre = "Asabeneh";
-let apellido_1 = "Yetayeh";
-let apellido_2 = "hubolt"
-let pais = "Finland";
-let ciudad = "Helsinki";
+let Nombre = "Angel";
+let apellido_1 = "Blázquez"
+let apellido_2 = "Jiménez"
+let pais = "España";
+let ciudad = "Salamanca";
 let idioma = "JavaScript";
-let trabajo = "teacher";
-let edad = 250;
+let trabajo = "Alumno";
+let edad = '16';
 
 // ahora que ya estan declaradas, ya podemos poner lo que queramos
 
 // 1º manera
 
-let nombreCompleto = primerNombre + espacio + apellido_1 + espacio + apellido_2;
+let nombreCompleto = Nombre + espacio + apellido_1 + espacio + apellido_2;
 let datosPersonaUno = nombreCompleto + ". Yo tengo " + edad + ". Vivo en" + espacio + pais; // Adición de cadena ES5.                 ejemplo de cadena
 
 console.log(datosPersonaUno);
@@ -52,7 +52,7 @@ console.log(datosPersonaUno);
 // 2º manera
 
 let personaInfoDos = `Soy ${nombreCompleto}. Tengo ${edad} años. Vivo en ${pais}.`; //ES6 - Método de interpolación de cadenas
-let personaInfoTres = `Soy ${nombreCompleto}. Vivo en ${ciudad}, ${pais}. Soy una ${trabajo}. Enseño ${idioma}.`;
+let personaInfoTres = `Soy ${nombreCompleto}. Vivo en ${ciudad}, ${pais}. Soy un ${trabajo}.`;
 console.log(personaInfoDos);
 console.log(personaInfoTres);
 
