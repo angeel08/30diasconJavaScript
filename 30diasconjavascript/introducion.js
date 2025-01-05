@@ -58,3 +58,8 @@ console.log(personaInfoTres);
 
 // Es lo mismo pero yo prefirero ponerlo de la 2 forma para poder, y tampoco es tan dificil de poner (con una ${}).
 
+console.log(typeof 'Ángel') // string
+console.log(typeof 18) // número
+console.log(typeof true ) // Verdadero o falso
+console.log(typeof null) // tipo de objeto
+console.log(typeof undefined) // indefinido
